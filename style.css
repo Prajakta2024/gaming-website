@@ -1,0 +1,66 @@
+/* https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #131313;
+    color: white;
+}
+
+nav {
+    height: 3rem;
+    background-color: rgba(255, 255, 255, 0.432);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav h1 {
+    font-size: 3rem;
+    font-family: monospace;
+    letter-spacing: 0.8rem;
+    color: #6f0b93;
+    text-transform: uppercase;
+}
+
+a {
+    color: ;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+#hero{
+    height: 100vh;
+    background-image: url("https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero h1{
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.432);
+    border-radius: 0.8rem;
+    font-size: 4rem;
+    font-family: monospace;
+    letter-spacing: 1rem;
+    color: #131313;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+span{
+    color:#6f0b93;
+};
+
+}
